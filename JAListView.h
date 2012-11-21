@@ -66,7 +66,7 @@ extern NSString * const JAListViewDraggingPasteboardType;
     BOOL canCallDataSourceInParallel;
     NSPoint margin;
     CGFloat *cachedLocations;
-    __weak JAListViewItem *viewBeingSelected;
+    __unsafe_unretained JAListViewItem *viewBeingSelected;
     NSColor *backgroundColor;
     BOOL isResizingManually;
     BOOL conditionallyUseLayerBacking;
